@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--section-color-five);
+  font-family: 'Lora', serif;
+  color: var(--text-color);
+}
+
+
+.light_mode{
+  --text-color : #1A1B2F;
+  --section-color-four : #e9e9e9;
+  --section-color-five : #f9faf3;
+  --btn-color : #1c1d36;
+  --border-color : #1A1B2F;
+  --skill-bar-color: #b8b8b8;
+  transition: .5s;
+}
+
+.mode_icon {
+  margin-top: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 296px) and (max-width: 768px) {
+  .mode_icon{
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 296px) and (max-width: 320px) {
+  .mode_icon{
+    font-size: 18px;
+  }
+}
+
+/* Logo */
+#logo{
+  margin-top: 20px;
+}
+#logo img{
+  height: auto;
+  width: 100px;
+}
+.logo_social_header ul{
+  list-style: none;
+  float: right;
+  margin-top: 20px;
+  display: none;
+}
+.logo_social_header ul li{
+  display: inline-block;
+  margin-right: 30px;
+} 
+.logo_social_header ul li:last-child{
+  margin-right: 0px;
+}
+.logo_social_header ul li a{
+  font-size: 25px;
+}
+
+/* Small Phone */
+@media only screen and (min-width: 296px) and (max-width: 320px) {
+  .logo_social_header ul{
+    display: block;
+    margin-top: 0px;
+  }
+  .logo_social_header ul li{
+    margin-right: 0px;
+  }
+}
+/* Small Phone */
+
+/* Medium Mobile */
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .logo_social_header ul{
+    display: block;
+  }
+  .logo_social_header ul li{
+    margin-right: 5px;
+  }
+}
+/* Medium mobile */
+
+/* Logo */
+
+/* Header */
+.header_section{
+  margin-top: 50px;
+}
+.header_section h2{
+  font-size: 60px;
+}
+.header_section h1{
+  font-size: 80px;
+}
+.header_section p{
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.header_section img{
+  height: auto;
+  width: 550px;
+  margin-top: -20px;
+}
+.header_section .skill{
+  font-size: 20px;
+}
+.header_section .btn{
+  height: 60px;
+  width: 180px;
+  padding-top: 14px;
+  font-size: 18px;
+  border-radius: 50px;
+  display: block;
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
+}
+
+#video_play{
+  margin-left: 20px;
+  display: inline;
+}
+#video_play i{
+  color: var(--text-color);
+  font-size: 40px;
+  margin-top: 40px;
+}
+#watch_video{
+  display: inline;
+}
+.skill_icon img{
+  height: auto;
+  width: 40px;
+}
+.skill_icon .skill_one{
+  margin-top: 30px;
+}
+.skill_icon .skill_two{
+  margin-top: -10px;
+}
+.skill_icon .skill_three{
+  margin-top: -10px;
+}
+.skill_icon .skill_four{
+  margin-top: 30px;
+}
+
+/* Small Phone */
+@media only screen and (min-width: 296px) and (max-width: 320px) {
+  .header_section #myImage img{
+    height: auto;
+    width: 300px;
+    margin-top: 0px;
+  }
+  .skill_icon{
+    margin-top: 30px;
+  }
+  .skill_icon img{
+    height: auto;
+    width: 40px;
+  }
+  #social_icon li{
+    padding: 0 3px;
+  }
+  #social_icon ul li a i{
+    font-size: 20px;
+    color: var(--text-color);
+  }
+}
+/* Small Phone */
+
+/* Medium Phone */
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+  .header_section img{
+    display: none;
+  }
+  .header_section{
+    padding-bottom: 20px;
+  }
+}
+/* Medium Phone */
+
+@media only screen and (max-width: 768px){
+  .header_section #myImage img{
+    padding-top: 40px;
+  }
+  .skill_icon{
+    padding-top: 50px;
+  }
+  #myImageSection{
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .header_section #myImage img{
+    width: 450px;
+    height: auto;
+    padding-top: 40px;
+  }
+  .header_section{
+    padding-bottom: 20px !important;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .header_section #myImage img{
+    width: 600px;
+    height: auto;
+    padding-top: 40px;
+  }
+}
+
+/* Header */
+
+/* Services */
+.services_section{
+  background-color: var(--section-color-four);
+  padding: 40px 0px;
+}
+.services_section h2{
+  font-size: 40px;
+  margin-top: 10px;
+}
+.services_section .card-img{
+  height: auto;
+  width: 50px;
+}
+.services_section .card-body h4{
+  color: #1A1B2F;
+}
+.services_section .card-body .description ul{
+  list-style: none;
+}
+.services_section .card-body .description li{
+  color: #1A1B2F;
+  text-decoration: none;
+}
+
+@media only screen and (min-width : 296px) and (max-width : 768px) {
+  .services_section .card{
+    margin-top: 10px;
+  }
+}
+/* Services */
+
+/* About */
+.about_section{
+  padding: 60px 0;
+  background-color: var(--section-color-five);
+}
+.about_section a i {
+  font-size: 60px;
+  color: var(--text-color);
+  padding: 0px 10px;
+}
+
+@media only screen and ( min-width: 296px ) and ( max-width: 768px ){
+  .about_section a i {
+    font-size: 40px;
+  }
+  .about_heading{
+    margin-top: 40px;
+  }
+}
+/* About */
+
+/* Happy Client */
+.happy_client_section{
+  padding: 60px 0;
+  background-color: var(--section-color-four);
+}
+.happy_client_section i{
+  font-size: 40px;
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  border-radius: 20px;
+}
+@media only screen and ( min-width: 296px ) and ( max-width: 768px ) {
+  .happy_client_number{
+    margin-top: 10px;
+  }
+}
+/* Happy Client */
+
+/* Project */
+.project_section{
+  padding: 60px 0;
+}
+.projectDetails img{
+  height: auto;
+  width: 100%;
+}
+
+/* Project */
+
+/* My Skills */
+.mySkill{
+  padding-bottom: 40px;
+  background-color: var(--section-color-four);
+}
+#mySkills_section{
+  margin-top: 130px;
+}
+#mySkills_section h1{
+  font-size: 50px;
+}
+.special_skills{
+  padding: 30px 30px;
+  margin-top: 20px;
+  background-color: var(--skill-bar-color);
+}
+.progress{
+  height: 10px;
+  background-color: #000000;
+}
+.mySkills_btn{
+  height: 60px;
+  border-radius: 50px;
+  display: block;
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
+}
+@media only screen and (min-width: 296px) and (max-width: 768px) {
+  #mySkills_section{
+    margin-top: 30px;
+  }
+  .mySkills_btn{
+    margin-bottom: 40px;
+  }
+}
+/* My Skills */
+
+/* Blog */
+.blog_section{
+  padding: 60px 0;
+}
+.blog_section .card {
+  box-shadow: 1px 1px 5px #ffffff;
+}
+.blog_section .btn{
+  color: #ffffff;
+  background-color: #1A1B2F;
+}
+.blog_section h2{
+  color: #1A1B2F
+}
+.blog_section p{
+  color: #1A1B2F;
+}
+@media only screen and (min-width: 296px) and (max-width: 768px) {
+  .blog_section .card{
+    margin-top: 20px;
+  }
+}
+/* Blog */
+
+/* Company Client Logo */
+.client_section{
+  background-color: var(--section-color-four);
+  padding: 40px 0;
+}
+.client_section img {
+  height: 100px;
+  width: 100px;  
+}
+/* Company Client Logo */
+
+/* Subscribe */
+.subscribe_section{
+  padding: 40px 0;
+}
+.form_section{
+  padding: 0 50px;
+}
+.form_section input{
+  border-radius: 40px;
+  height: 50px;
+}
+.form_section a{
+  height: 50px;
+  border-radius: 50px;
+  display: block;
+  font-size: 20px;
+  padding-top: 9px;
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
+}
+.contact_details{
+  margin-top: 50px;
+}
+.contact_details .phone i{
+  padding: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+.contact_details .email i{
+  padding: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+.social_section li{
+  display: inline;
+  padding: 8px;
+}
+.social_section li a{
+  font-size: 25px;
+  color: var(--text-color);
+}
+@media only screen and (min-width: 296px) and (max-width: 768px){
+  .form_section a{
+    margin-top: 10px;
+  }
+  @media only screen and (min-width: 296px) and (max-width: 1440px) {
+    .contact_details .phone i{
+      display: none;
+    }
+    .contact_details .email i{
+      display: none;
+    }
+  }
+}
+/* Subscribe */
+
+/* Copywrite */
+.copy_write_section{
+  padding: 10px 0;
+  background-color: var(--section-color-four);
+}
+.copy_write_section a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+/* Copywrite */
+
+
+
+.dark_mode{
+  --text-color : #ffffff;
+  --section-color-four : #1c1d36;
+  --section-color-five : #1A1B2F;
+  --btn-color : #ffffff;
+  --border-color: #ffffff;
+  --skill-bar-color: #1A1B2F;
+  transition: .5s;
+}
